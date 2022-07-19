@@ -25,30 +25,40 @@
         <br>
         <label>性別</label>
 
-        <input type="radio" name="gender" id="men">
+        <input type="radio" name="gender" id="men" value="男">
         <label for="men">男</label>
 
-        <input type="radio" name="gender" id="women">
+        <input type="radio" name="gender" id="women" value="女">
         <label for="women">女</label>
 
-        <input type="radio" name="gender" id="unknown" checked>
+        <input type="radio" name="gender" id="unknown" value="不告訴你" checked>
         <label for="unknown">不告訴你</label>
         <!-- id只能使用一次 -->
         <br>
         <label>興趣</label>
         
-        <input type="checkbox" name="hobby" id="eat" checked>
+        <input type="checkbox" name="hobby" id="eat" value="吃" checked>
         <label for="eat">吃</label>
 
-        <input type="checkbox" name="hobby" id="drink" checked>
+        <input type="checkbox" name="hobby" id="drink" value="喝" checked>
         <label for="drink">喝</label>
 
-        <input type="checkbox" name="hobby" id="play" checked>
+        <input type="checkbox" name="hobby" id="play" value="玩" checked>
         <label for="play">玩</label>
 
-        <input type="checkbox" name="hobby" id="happy">
+        <input type="checkbox" name="hobby" id="happy" value="樂">
         <label for="happy">樂</label>
 
+        <br>
+        <label for="edu">學歷</label>
+        <select name="edu" id="edu">
+            <option value="國小">國小</option>
+            <option value="國中">國中</option>
+            <option value="高中職">高中職</option>
+            <option value="大專院校" selected>大專院校</option>
+            <option value="研究所以上">研究所以上</option>
+        </select>
+        
         <br>
         <input type="submit">
     </form>
