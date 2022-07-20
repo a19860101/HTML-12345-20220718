@@ -10,7 +10,7 @@
         /* @import url('style.css'); */
         /* 標籤選取器 tag */
         h1 {
-            color: crimson;
+            color: rgb(41, 120, 255);
         }
 
         /* 類別選取器 class */
@@ -18,19 +18,26 @@
             color: rgb(62, 255, 110);
         }
 
-        /* ID選取器  */
+        /* ID選取器  只可使用一次 具有唯一性*/
         #xyz {
             color: rgb(255, 122, 202);
         }
+
+        /* 
+            CSS權重
+            影響範圍越少的，權重越重，越優先套用
+
+            ID > CLASS > TAG
+        */
     </style>
 </head>
 <body>
-    <h1>hello css!!!</h1>
+    <h1 class="abc" id="xyz">hello css!!!</h1>
     <p>
         財產投資詳細內容，名字結婚穩定秘密工商位置名稱初音基隆公佈，行業也沒實際真實力道漸漸其他如果您可憐體驗，經營戰爭丈夫例如工業有所原創，刪除意見實在，維修提前人類，精華面向最好的勞動確實創造網站有可能立即出來發佈時間，阿宅人民共和國，多次通過植物，展開分公。
     </p>
     <ul>
-        <li id="xyz">list</li>
+        <li>list</li>
         <li class="abc">list</li>
         <li>list</li>
         <li>list</li>
