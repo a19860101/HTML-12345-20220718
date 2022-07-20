@@ -1,75 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form action="">
-        <label for="fullname">姓名</label>
-        <input type="text" name="name" id="fullname" placeholder="請輸入姓名">
-        <br>
-        <label for="pw">密碼</label>
-        <input type="password" name="pw" id="pw" placeholder="請輸入密碼">
-        <br>
-        <label for="phone">電話</label>
-        <input type="text" name="phone" id="phone" placeholder="請輸入電話">
-        <br>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="請輸入email">
-        <br>
-        <label for="number">數量</label>
-        <input type="number" name="number" id="number" max="3" min="1">
-        <br>
-        <label for="date">日期</label>
-        <input type="date" name="date" id="date">
-        <br>
-        <label>性別</label>
+        <fieldset>
+            <legend>註冊資訊</legend>
+            <label for="fullname">姓名</label>
+            <input type="text" name="name" id="fullname" placeholder="請輸入姓名">
+            <br>
+            <label for="pw">密碼</label>
+            <input type="password" name="pw" id="pw" placeholder="請輸入密碼">
+            <br>
+            <label for="phone">電話</label>
+            <input type="text" name="phone" id="phone" placeholder="請輸入電話">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="請輸入email">
+            <br>
+            <label for="number">數量</label>
+            <input type="number" name="number" id="number" max="3" min="1">
+            <br>
+            <label for="date">日期</label>
+            <input type="date" name="date" id="date">
+            <br>
+            <label>性別</label>
 
-        <input type="radio" name="gender" id="men" value="男">
-        <label for="men">男</label>
+            <input type="radio" name="gender" id="men" value="男">
+            <label for="men">男</label>
 
-        <input type="radio" name="gender" id="women" value="女">
-        <label for="women">女</label>
+            <input type="radio" name="gender" id="women" value="女">
+            <label for="women">女</label>
 
-        <input type="radio" name="gender" id="unknown" value="不告訴你" checked>
-        <label for="unknown">不告訴你</label>
-        <!-- id只能使用一次 -->
-        <br>
-        <label>興趣</label>
-        
-        <input type="checkbox" name="hobby" id="eat" value="吃" checked>
-        <label for="eat">吃</label>
+            <input type="radio" name="gender" id="unknown" value="不告訴你" checked>
+            <label for="unknown">不告訴你</label>
+            <!-- id只能使用一次 -->
+            <br>
+            <label>興趣</label>
 
-        <input type="checkbox" name="hobby" id="drink" value="喝" checked>
-        <label for="drink">喝</label>
+            <input type="checkbox" name="hobby" id="eat" value="吃" checked>
+            <label for="eat">吃</label>
 
-        <input type="checkbox" name="hobby" id="play" value="玩" checked>
-        <label for="play">玩</label>
+            <input type="checkbox" name="hobby" id="drink" value="喝" checked>
+            <label for="drink">喝</label>
 
-        <input type="checkbox" name="hobby" id="happy" value="樂">
-        <label for="happy">樂</label>
+            <input type="checkbox" name="hobby" id="play" value="玩" checked>
+            <label for="play">玩</label>
 
-        <br>
-        <label for="edu">學歷</label>
-        <select name="edu" id="edu">
-            <option value="國小">國小</option>
-            <option value="國中">國中</option>
-            <option value="高中職">高中職</option>
-            <option value="大專院校" selected>大專院校</option>
-            <option value="研究所以上">研究所以上</option>
-        </select>
-        
-        <br>
-        <input type="submit" value="送出">
-        <input type="reset" value="reset">
-        <input type="button" value="自訂義">
-        <br>
-        <button type="submit">送出</button>
-        <button type="reset">重設</button>
-        <button type="button">自訂義</button>
+            <input type="checkbox" name="hobby" id="happy" value="樂">
+            <label for="happy">樂</label>
+
+            <br>
+            <label for="edu">學歷</label>
+            <select name="edu" id="edu">
+                <option value="國小">國小</option>
+                <option value="國中">國中</option>
+                <option value="高中職">高中職</option>
+                <option value="大專院校" selected>大專院校</option>
+                <option value="研究所以上">研究所以上</option>
+            </select>
+
+            <br>
+            <input type="submit" value="送出">
+            <input type="reset" value="reset">
+            <input type="button" value="自訂義">
+            <br>
+            <button type="submit">送出</button>
+            <button type="reset">重設</button>
+            <button type="button">自訂義</button>
+        </fieldset>
     </form>
 </body>
+
 </html>
