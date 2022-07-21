@@ -14,11 +14,37 @@
             height: 100px;
             background-color: red;
 
-            position: fixed;
+            position: absolute;
             /* top, bottom ,left, right */
 
             bottom: 0;
             right: 100px;
+        }
+        .absolute-2 {
+            width: 100px;
+            height: 100px;
+            background-color: #1971ff;
+
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .relative {
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+
+            position: relative;
+            top:10px;
+            z-index: 100;
+        }
+        .relative-2 {
+            width: 500px;
+            height: 500px;
+            background-color: #ff4b4b;
+
+            position: relative;
+            z-index: 10;
         }
     </style>
 </head>
@@ -30,6 +56,14 @@
         固定 fixed
         黏性 sticky
      -->
+    
+    <div class="relative">
+        <div class="absolute-1"></div>
+    </div>
+    <div class="relative-2">
+        
+        <div class="absolute-2"></div>
+    </div>
     <div class="absolute-1"></div>
 </body>
 </html>
