@@ -21,7 +21,7 @@ nav a {
 }
 
 header {
-    background-image: url('https://picsum.photos/id/66/1600/800');
+    background-image: url('https://picsum.photos/id/1033/1600/800');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,10 +36,41 @@ header {
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 30px;
+    border-radius: 15px;
+
 }
 header h1 {
     font-size: 6rem;
 }
 header p {
     font-size: 24px;
+}
+#about {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flow-root
+}
+.about-box {
+    width: 400px;
+    padding: 15px;
+    float: left;
+}
+.about-box h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about-box p {
+    margin-bottom: 20px;
+}
+.about-box a {
+    display: inline-block;
+    padding: 8px 18px;
+    color: #fff;
+    background-color: #00232f;
+    text-decoration: none;
+    border-radius: 5px;
 }
