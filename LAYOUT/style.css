@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito','微軟正黑體','Sans-serif';
+    margin: 0;
+}
+nav {
+    text-align: center;
+    background-color: #222;
+}
+/* 後代選取 */
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 8px;
+}
