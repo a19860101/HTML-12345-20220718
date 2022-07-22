@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap');
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Nunito','微軟正黑體','Sans-serif';
@@ -16,4 +18,28 @@ nav a {
     text-decoration: none;
     display: inline-block;
     padding: 15px 8px;
+}
+
+header {
+    background-image: url('https://picsum.photos/id/66/1600/800');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+
+    text-align: center;
+    color: #fff;
+}
+.header-content {
+    width: 75%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+header h1 {
+    font-size: 6rem;
+}
+header p {
+    font-size: 24px;
 }
